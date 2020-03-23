@@ -2,7 +2,7 @@
   "name": "wdio-visual-regression-reporter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "dependencies": {
     "@wdio/reporter": "^5.18.6",
     "chalk": "^3.0.0"
