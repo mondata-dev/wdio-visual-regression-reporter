@@ -1,0 +1,43 @@
+{
+  "name": "wdio-visual-regression-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@wdio/reporter": "^5.18.6",
+    "chalk": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.3",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "prettier": "^2.0.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {},
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts",
+    "prettier-check": "prettier --check '**/*.js' '**/*.ts' '**/*.json' '**/*.md'",
+    "prettier": "prettier --write '**/*.js' '**/*.ts' '**/*.json' '**/*.md'",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mondata-dev/wdio-visual-regression-reporter.git"
+  },
+  "author": "Mondata GmbH <david.poetzsch-heffter@mondata.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mondata-dev/wdio-visual-regression-reporter/issues"
+  },
+  "keywords": [
+    "wdio",
+    "webdriverio",
+    "wdio-reporter"
+  ],
+  "homepage": "https://github.com/mondata-dev/wdio-visual-regression-reporter#readme"
+}
